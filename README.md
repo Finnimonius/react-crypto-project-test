@@ -1,4 +1,9 @@
-# 🚀 Crypto Portfolio Tracker
+<div align="center">
+
+![Gold Coin](https://img.icons8.com/emoji/48/000000/coin-emoji.png)
+# Crypto Portfolio Tracker
+
+</div>
 
 <div align="center">
 
