@@ -41,4 +41,4 @@ Crypto Portfolio Tracker — это интуитивно понятное веб
 - **Icons:** Ant Design Icons
 
 ![App Preview](./public/screenshot-app.PNG)
-![App Preview](./public/screenshot-assets-added.PNG)
+![App Preview Assets](./public/screenshot-assets-added.PNG)
