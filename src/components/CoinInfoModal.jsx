@@ -1,14 +1,10 @@
 import { Divider, Flex, Tag, Typography } from 'antd'
+import CoinInfo from './CoinInfo'
 
 export default function CoinInfoModal({ coin }) {
     return (
         <>
-            <Flex gap='small'>
-                <img src={coin.icon} alt={coin.name} style={{ width: 40 }} />
-                <Typography.Title level={2} style={{ margin: 0 }}>
-                    ({coin.symbol}) {coin.name}
-                </Typography.Title>
-            </Flex>
+            <CoinInfo coin={coin} withSymbol/>
             <Divider />
             <Typography.Paragraph>
                 <Flex gap='small'>

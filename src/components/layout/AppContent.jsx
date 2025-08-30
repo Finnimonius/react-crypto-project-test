@@ -1,4 +1,5 @@
-import { Layout } from 'antd';
+import { Layout, Typography } from 'antd';
+import { useCrypto } from '../../context/crypto-context';
 
 const contentStyle = {
   textAlign: 'center',
@@ -9,5 +10,10 @@ const contentStyle = {
 };
 
 export default function AppContent() {
-    return (<Layout.Content style={contentStyle}></Layout.Content>)
+  const {crypto} = useCrypto()
+    return (
+    <Layout.Content style={contentStyle}>
+      <Typography.Title level={3} style={{textAlign: 'left', color: '#fff'}}>Portfolio: 12000</Typography.Title>
+    </Layout.Content>
+  )
 }
