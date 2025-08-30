@@ -1,12 +1,43 @@
-# React + Vite
+# 🚀 Crypto Portfolio Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<div align="center">
 
-Currently, two official plugins are available:
+![React](https://img.shields.io/badge/React-18.2.0-61DAFB?style=for-the-badge&logo=react)
+![Vite](https://img.shields.io/badge/Vite-4.4.0-646CFF?style=for-the-badge&logo=vite)
+![Ant Design](https://img.shields.io/badge/Ant%20Design-5.0.0-0170FE?style=for-the-badge&logo=ant-design)
+![Chart.js](https://img.shields.io/badge/Chart.js-4.0.0-FF6384?style=for-the-badge&logo=chart.js)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Моё первое React-приложение для отслеживания криптовалютного портфеля
 
-## Expanding the ESLint configuration
+</div>
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📖 О проекте
+
+Crypto Portfolio Tracker — это интуитивно понятное веб-приложение для мониторинга и управления вашим криптовалютным портфелем. Приложение предоставляет удобный интерфейс для отслеживания стоимости активов, анализа распределения портфеля и получения актуальной информации о криптовалютах.
+
+![App Preview](https://via.placeholder.com/800x400/2D3748/FFFFFF?text=Crypto+Portfolio+Tracker)
+
+## ✨ Возможности
+
+### 📊 Управление портфелем
+- **Добавление активов** — интуитивная форма для внесения криптовалют в портфель
+- **Редактирование и удаление** — полный контроль над вашими инвестициями
+- **Визуализация** — круговая диаграмма распределения активов
+
+### 📈 Аналитика и данные
+- **Детальная информация** — просмотр подробных данных о каждой криптовалюте
+- **Таблица активов** — сортируемая таблица с ключевыми метриками
+- **Графики** — визуальное представление динамики портфеля
+
+### ⚡ Производительность
+- **Быстрый поиск** — мгновенный поиск по криптовалютам (горячая клавиша `/`)
+- **Адаптивный дизайн** — оптимизировано для всех устройств
+- **Интуитивный UI** — чистый и современный интерфейс на Ant Design
+
+## 🛠️ Технологии
+
+- **Frontend:** React 18, Hooks, Context API
+- **Build Tool:** Vite
+- **UI Framework:** Ant Design
+- **Charts:** Chart.js, react-chartjs-2
+- **Icons:** Ant Design Icons
